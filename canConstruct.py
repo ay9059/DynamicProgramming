@@ -1,3 +1,6 @@
+"""
+@author: Abhishek Yadav <ay9059@rit.edu>
+"""
 def canConstruct(word,li):
     return canConstructHelper(word,li,dict())
 
@@ -27,9 +30,6 @@ def check(word,prefix):
     else:
        return False
 
-test = 'ab'
-word = 'abc'
-print(word[len(test):])
-print(word)
+
 print(canConstruct('eeeeeeef',['e','eeeee','ee','eeeee']))
 

@@ -1,4 +1,4 @@
-
+#TEST
 def gridTraveller(m,n):
    memo = [[0 for i in range(n+1)] for x in range (m+1)]
    return gridTravellerHelper(m,n,memo)
